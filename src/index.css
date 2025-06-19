@@ -38,20 +38,28 @@ body {
 }
 
 .hero {
-  background: linear-gradient(to right, #f0f8ff, #e6f2ff);
+  background: #111;
+  color: #fff;
   padding: 120px 20px;
   text-align: center;
 }
 
 .hero h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  color: #ccc;
 }
+
+.btn {
+  background-color: #fff;
+  color: #111;
+  padding: 12px 30px;
+  text-decoration: none;
 
 .btn {
   background-color: #0077cc;
