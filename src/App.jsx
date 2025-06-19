@@ -1,17 +1,25 @@
-import React from "react";
-
 function App() {
   return (
-    <div className="min-h-screen bg-white text-gray-900">
-      {/* Hero */}
-      <section className="h-screen flex flex-col items-center justify-center text-center px-4 bg-gradient-to-b from-[#f5f5f5] to-white">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">Elite Contracting</h1>
-        <p className="text-lg md:text-2xl text-gray-700 mb-6">
-          Quality Craftsmanship Across NYC
-        </p>
-        <button className="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition">
-          Request a Quote
-        </button>
+    <div className="app">
+      <header className="navbar">
+        <h1 className="logo">Elite Contracting</h1>
+        <nav>
+          <ul className="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section className="hero">
+        <div className="hero-content">
+          <h2 className="fade-loop">NYC’s Trusted Construction Partner</h2>
+          <p>Delivering quality craftsmanship for over a decade.</p>
+          <a href="#" className="btn">Request a Quote</a>
+        </div>
       </section>
     </div>
   );
