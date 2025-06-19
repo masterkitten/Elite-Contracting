@@ -1,18 +1,20 @@
 function App() {
   return (
     <div className="app">
-      <header className="navbar">
-        <h1 className="logo">Elite Contracting</h1>
-        <nav>
-          <ul className="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+     <header className="navbar">
+  <div className="nav-container">
+    <h1 className="logo">Elite Contracting</h1>
+    <nav>
+      <ul className="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
       <section className="hero">
         <div className="hero-content">
