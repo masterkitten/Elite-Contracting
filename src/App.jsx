@@ -25,4 +25,20 @@ function App() {
   );
 }
 
+
+<section className="about">
+  <div className="about-content">
+    <h2>About Us</h2>
+    <p>
+      Elite Contracting is a full-service construction company serving all five boroughs of New York City. 
+      From brownstone renovations to full apartment remodels, our team delivers high-quality craftsmanship 
+      and reliable service on every project.
+    </p>
+    <p>
+      We pride ourselves on transparency, communication, and a deep understanding of NYC building codes and 
+      property types. Whether it’s a small upgrade or a large-scale renovation, we bring your vision to life — on time and on budget.
+    </p>
+  </div>
+</section>
+
 export default App;
