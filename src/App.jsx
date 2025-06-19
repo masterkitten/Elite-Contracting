@@ -16,16 +16,14 @@ function App() {
   </div>
 </header>
 
-      <section className="hero">
-        <div className="hero-content">
-          <h2 className="fade-loop">NYC’s Trusted Construction Partner</h2>
-          <p>Delivering quality craftsmanship for over a decade.</p>
-          <a href="#" className="btn">Request a Quote</a>
-        </div>
-      </section>
-    </div>
-  );
-}
+     <section className="hero">
+  <div className="hero-content">
+    <h2 className="fade-loop">Construction. Renovation. Restoration.</h2>
+    <p>Serving all five boroughs of NYC with precision and pride.</p>
+    <a href="#" className="btn">Request a Quote</a>
+  </div>
+</section>
+
 
 
 <section className="about">
