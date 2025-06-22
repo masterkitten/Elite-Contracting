@@ -23,14 +23,14 @@ function App() {
         </div>
       </section>
 
-      <section id="about" className="about">
+      <section id="about" className="section-content">
         <h2>About Us</h2>
         <p>
           We’re a full-service contracting company based in NYC, handling everything from brownstone renovations to apartment remodels.
         </p>
       </section>
 
-      <section id="services" className="services">
+      <section id="services" className="section-content">
         <h2>Services</h2>
         <ul>
           <li>Brownstone Renovations</li>
@@ -39,12 +39,12 @@ function App() {
         </ul>
       </section>
 
-      <section id="gallery" className="gallery">
+      <section id="gallery" className="section-content">
         <h2>Gallery</h2>
         <p>Gallery content coming soon...</p>
       </section>
 
-      <section id="contact" className="contact">
+      <section id="contact" className="section-content">
         <h2>Contact</h2>
         <p>Email: elitecontractingnyc@gmail.com</p>
       </section>
@@ -52,5 +52,5 @@ function App() {
   )
 }
 
-export default App
+export default App;
 
