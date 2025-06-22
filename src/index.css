@@ -42,12 +42,12 @@ body {
 /* Hero */
 .hero {
   width: 100%;
-  max-width: none;
-  background: #111;
-  color: white;
+  background: linear-gradient(135deg, #dbeafe, #fce7f3); /* soft blue to pink */
+  color: #111;
   padding: 100px 20px;
   text-align: center;
 }
+
 
 .hero h2 {
   font-size: 3rem;
