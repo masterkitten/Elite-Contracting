@@ -38,33 +38,31 @@ body {
 
 .hero {
   background: #111;
-  color: #fff;
-  padding: 120px 20px;
+  color: white;
+  padding: 100px 20px;
   text-align: center;
 }
 
 .hero h2 {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
-  color: #ccc;
+  margin-bottom: 20px;
 }
 
 .btn {
-  background-color: #0077cc;
-  color: #fff;
-  padding: 12px 30px;
-  text-decoration: none;
-  border-radius: 30px;
+  background-color: #007bff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
   font-weight: bold;
-  transition: background 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  transition: background-color 0.3s;
 }
 
 .btn:hover {
-  background-color: #005fa3;
-  color: #fff;
+  background-color: #0056b3;
 }
