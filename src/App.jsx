@@ -1,35 +1,36 @@
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Services from './pages/Services';
+import Gallery from './pages/Gallery';
+import Contact from './pages/Contact';
+
 function App() {
   return (
-    <div className="app">
+    <>
       <header className="navbar">
-        <div className="nav-container">
-          <h1 className="logo">Elite Contracting</h1>
-          <nav>
-            <ul className="nav-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
+        <h1 className="logo">Elite Contracting</h1>
+        <nav>
+          <ul className="nav-links">
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/gallery">Gallery</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+          </ul>
+        </nav>
       </header>
 
-      <section className="hero">
-        <div className="hero-content">
-          <h2>Construction. Renovation. Restoration.</h2>
-          <p>Serving all five boroughs of NYC with precision and pride.</p>
-          <a href="#" className="btn">Request a Quote</a>
-        </div>
-      </section>
-
-      <div style={{ background: 'green', padding: '80px', textAlign: 'center', color: '#fff' }}>
-        <h2>Test Block</h2>
-        <p>This confirms your site is rendering after the hero section.</p>
-      </div>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 }
 
 export default App;
+
