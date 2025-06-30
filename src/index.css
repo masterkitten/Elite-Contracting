@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #ffffff;
+  background-color: #f4f2ef; /* softer neutral */
   color: #1a1a1a;
   line-height: 1.6;
 }
@@ -50,10 +50,8 @@ body {
   width: 100%;
   padding: 100px 20px;
   text-align: center;
-  background: linear-gradient(to bottom, #0a0a23 80%, #ffffff);
+  background: linear-gradient(to bottom, #0a0a23, #f4f2ef); /* navy to soft beige */
   color: white;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
 }
 
 .hero .hero-content {
