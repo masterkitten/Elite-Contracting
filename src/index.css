@@ -50,8 +50,10 @@ body {
   width: 100%;
   padding: 100px 20px;
   text-align: center;
-  background-color: #0a0a23;
+  background: linear-gradient(to bottom, #0a0a23 80%, #ffffff);
   color: white;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 
 .hero .hero-content {
